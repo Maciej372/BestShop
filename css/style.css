@@ -1,15 +1,6 @@
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
 
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    max-width: 1352px;
-    margin: 0 auto;
-
-}
 
 :root {
     --color-primary: #08a6e4;
@@ -21,20 +12,24 @@
     --color-light-grey: #f7f7f7;
     --color-white: #ffffff;
 }
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+
+}
 
 .header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
+    position: relative;
     height: 70px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
-    opacity: 1; 
     z-index: 100;
 }
 
-.header .container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,38 +37,30 @@
 }
 
 .logo {
-    top: 16px;
-    left: 136px;
-    text-align: left;
-    font: normal normal 300 32px/37px Raleway;
-    letter-spacing: 0px;
-    color: #08A6E4;
-    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--color-primary);
     text-decoration: none;
 }
 
 .menu-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
 .menu-list a {
-    text-align: center;
-    font: normal normal bold 11px/15px Open Sans;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
     letter-spacing: 3.28px;
-    opacity: 1;
     text-transform: uppercase;
     color: var(--color-grey);
     text-decoration: none;
     padding: 28px 40px 27px;
-    display: flex;
-    align-items: center;
 }
 
 .menu-list a:hover {
-    /* height: 81px; */
     color: var(--color-black);
     border-bottom: 4px solid var(--color-primary);
 }
@@ -85,19 +72,20 @@
     align-items: center;
 }
 .hero-inside {
-    margin-top: 130px;
+    margin-top: 200px;
     text-align: center;
 }
 
 .hero-title {
-    font: normal normal normal 49px/57px Raleway;
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
     color: var(--color-black);
 }
 
 .hero-text {
     margin-top: 20px;
     margin-bottom: 38px;
-    font: normal normal normal 16px/22px Open Sans;
+    font-family: 'Open Sans', sans-serif;
     color: var(--color-black);
 }
 
@@ -112,7 +100,7 @@
     padding: 22px 155px;
     text-decoration: none;
 }
-.hero.img {
+.hero_img {
     width: 100%;
     height: auto;
 }
