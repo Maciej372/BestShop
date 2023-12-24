@@ -382,3 +382,84 @@
     margin-top: 29px;
     position: absolute;
 }
+
+.benefits-three-box {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+    height: 370px;
+    width: 100%;
+    margin-bottom: 105px;
+}
+
+.benefits-three-box-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex start;
+    justify-content: center;
+    width: 50%;
+    
+    
+    
+}
+.benefits-three-box-text-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 35px;
+
+   
+}
+.benefits-three-box-article-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 35px;
+
+}
+.benefits-three-box-article-line {
+    width: 328px;
+    height: 4px;
+    background-color: #55DFB4;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.benefits-three-box-photo {
+    width: 44%;
+    display: flex;
+    background-color: #55DFB4;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.benefits-three-box-photo-border {
+    height: 100%;
+    width: 61px;
+    background-color: #F7F7F7;
+    position: absolute;
+    left: 0;
+}
+
+.benefits-three-box-photo-circle {
+    width: 320px;
+    height: 320px;
+    background-color: #08A6E4;
+    border-radius: 50%;
+    position: relative;
+    right: 25px;
+    
+    
+}
+
+.benefits-three-box-photo-img {
+    width: 426px;
+    height: 328x;
+    margin-top: 98px;
+    margin-left: 82px;
+    position: absolute;
+}
