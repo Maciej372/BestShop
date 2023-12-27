@@ -476,6 +476,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 155px;
   }
   
   .prices-boxes {
@@ -755,4 +756,144 @@
     justify-content: center;
     align-items: center;
     
+}
+
+.contact-form {
+    display: flex;
+    align-items: flex-start;
+   
+    max-width: 840px;
+    margin: 0 auto;
+}
+.contact-form-left {
+    flex: 1;
+    margin-right: 50px;
+
+.contact-form-left-mail-phone {
+    display: flex;
+    justify-content: space-between;
+}
+   
+}
+.contact-form-right {
+    flex: 1;
+}
+
+.contact-form-left-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    color: var(--color-black);
+    margin-bottom: 22px;
+
+}
+.contact-form-left-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--color-black);
+    margin-bottom: 42px;
+}
+.contact-form-left-mail {
+    font-size: 16px;
+    color: var(--color-grey);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.contact-form-left-mail::before {
+    content: url(../assets/Mail\ Icon.svg);
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+
+}
+.contact-form-left-phone {
+    margin-right: 70px;
+    font-size: 16px;
+    color: var(--color-grey);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-left-phone::before {
+    content: url(../assets/Phone\ Icon.svg);
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+
+
+.form {}
+.form-row {
+    margin-bottom: 20px;
+}
+.form-row--last {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.form-control {
+    height: 38px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-black);
+    padding: 0 10px;
+    width: 100%;
+    font-family: inherit;
+    color: #aaa;
+}
+
+.form-check {
+    display: flex;
+    gap: 10px;
+}
+.form-check-input {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 8px;
+    border: 1px solid rgba(209 209 209 / 1);
+    appearance: none;
+}
+.form-check-input:checked {
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+.form-check-label {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    color: var(--color-grey);
+}
+
+.form-btn {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+    color: var(--color-light-grey);
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
