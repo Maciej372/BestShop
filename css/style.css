@@ -463,3 +463,296 @@
     margin-left: 82px;
     position: absolute;
 }
+
+.prices-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+
+}
+.prices-container {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prices-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+.prices-first-box {
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+    border: 1px solid #FB3B64;
+    margin-right: 59px;
+    position: relative;
+
+}
+.prices-first-box-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-first-box-type {
+    margin-top: 34px;
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #13253B;
+    font-weight: bold;
+}
+.prices-first-box-price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    color: #FB3B64;
+    margin-bottom: 69px;
+}
+.prices-first-box-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-first-box-list-item {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prices-first-box-list-item::before {
+    content: url(../assets/Ckechmark-1.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+
+}
+.prices-first-box-list-item-other {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.prices-first-box-list-item-other::before {
+    content: url(../assets/Close.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+  
+    
+}
+
+
+.first-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #EB476E;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    bottom: -5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.prices-two-box {
+    width: 405px;
+    height: 500px;
+    border-radius: 18px;
+    border: 1px solid #07ACE6;
+    margin-right: 59px;
+    position: relative;
+    box-shadow: 5px 10px 27px #07ACE629;
+
+}
+.prices-two-box-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-two-box-type {
+    margin-top: 34px;
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    color: #13253B;
+    font-weight: bold;
+}
+.prices-two-box-price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    color: #07ACE6;
+    margin-bottom: 5px;
+}
+
+.prices-two-box-limited {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #13253B;
+    margin-bottom: 61px;
+}
+
+.prices-two-box-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-two-box-list-item {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prices-two-box-list-item::before {
+    content: url(../assets/Ckechmark-1.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+
+}
+.prices-two-box-list-item-other {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.prices-two-box-list-item-other::before {
+    content: url(../assets/Close.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+  
+}
+
+.two-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #07ACE6;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    bottom: -5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.prices-three-box {
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+    border: 1px solid #55DFB4;
+    position: relative;
+
+}
+.prices-three-box-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-three-box-type {
+    margin-top: 34px;
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    color: #13253B;
+    font-weight: bold;
+}
+.prices-three-box-price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    color: #55DFB4;
+    margin-bottom: 5px;
+}
+
+.prices-three-box-limited {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #13253B;
+    margin-bottom: 50px;
+}
+
+.prices-three-box-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prices-three-box-list-item {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prices-three-box-list-item::before {
+    content: url(../assets/Ckechmark-1.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+
+}
+.prices-three-box-list-item-other {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.prices-three-box-list-item-other::before {
+    content: url(../assets/Close.svg);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+  
+}
+
+.three-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #55DFB4;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    bottom: -5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
