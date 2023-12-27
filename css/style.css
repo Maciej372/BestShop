@@ -897,3 +897,38 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+.footer {
+    display: flex;
+    width: 100%;
+    margin-top: 59px;
+    height: 89px; 
+    background-color: var(--color-light-grey);
+    box-shadow: 0px -5px 40px #00000029;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.container-small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: var(--color-grey);
+    margin-top: 7px;
+}
+
+
+.twitter-link {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
